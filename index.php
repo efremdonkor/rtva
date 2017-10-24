@@ -12,13 +12,13 @@ and open the template in the editor.
         </title>
 
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-        <!--        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css.map">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css.map">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap.css.map">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-                <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css.map">-->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <!--                <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+                        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css.map">
+                        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+                        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css.map">
+                        <link type="text/css" rel="stylesheet" href="css/bootstrap.css.map">                
+                        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css.map">-->
         <link href="css/styles.css" type="text/css" rel="stylesheet">
         <script
             src="https://code.jquery.com/jquery-3.2.1.js"
@@ -33,38 +33,47 @@ and open the template in the editor.
         ?>
 
         <div class="site-container">
+            <div class="container-fluid" id="coverhead">
+                <!--<h1>The Lord will restore just as he has promised</h1>-->
+            </div>
+            
             <div class="container-fluid" id="holdnav">
-            <nav class="navbar navbar-inverse container">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-                        <a class="navbar-brand" href="#">Restoration Temple</a>
+                <nav class="navbar navbar-inverse container">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span> 
+                            </button>
+                            <a class="navbar-brand" href="#">Restoration Temple</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <!--                            <ul class="nav navbar-nav">
+                                                            <li class="active"><a href="#">Home</a></li>
+                                                            <li><a href="#">Page 1</a></li>
+                                                            <li><a href="#">Page 2</a></li> 
+                                                            <li><a href="#">Page 3</a></li> 
+                                                        </ul>-->
+                            <ul class="nav navbar-nav navbar-right" id="navigate">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">New Here?</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Ministries</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Contact US</a></li>
+    <!--                            <span class="glyphicon glyphicon-user"></span> 
+                                <span class="glyphicon glyphicon-log-in"></span> -->
+                            </ul>
+                        </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <!--                            <ul class="nav navbar-nav">
-                                                        <li class="active"><a href="#">Home</a></li>
-                                                        <li><a href="#">Page 1</a></li>
-                                                        <li><a href="#">Page 2</a></li> 
-                                                        <li><a href="#">Page 3</a></li> 
-                                                    </ul>-->
-                        <ul class="nav navbar-nav navbar-right" id="navigate">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">New Here?</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Ministries</a></li>
-                            <li><a href="#">Media</a></li>
-                            <li><a href="#">Contact US</a></li>
-<!--                            <span class="glyphicon glyphicon-user"></span> 
-                            <span class="glyphicon glyphicon-log-in"></span> -->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-                </div>
+                </nav>
+            </div>
+            
+            <div class="container-fluid" id="msg">
+                <h2>Message from Pastor John Sarsah</h2>
+                <p>This is a short message from Pastor Sarsah</p>
+            </div>
         </div>
     </body>
 </html>

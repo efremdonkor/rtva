@@ -14,7 +14,9 @@ and open the template in the editor.
 
 nav {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: white;
 }
 
 nav li {
@@ -33,4 +35,36 @@ nav li {
 
 #holdnav {
     background-color: #255625;
+    z-index: 150;
+    box-shadow: 0 2px #4cae4c;
+}
+
+
+#coverhead {
+    height: 90vh;
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+#coverhead h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font: arial;
+    text-transform: uppercase;
+}
+
+#msg {
+    height: 150vh;
+    width: 100%;
+}
+
+#msg h2 {
+    margin-left: 8%;
+    text-transform: capitalize;
+    font-size: 1.2em;
 }
