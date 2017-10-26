@@ -26,6 +26,19 @@ and open the template in the editor.
         crossorigin="anonymous"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script>
+            var mn = $("#holdnav");
+            mns = "main-nav-scrolled";
+            hdr = $('#coverhead').height();
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > hdr) {
+                    mn.addClass(mns);
+                } else {
+                    mn.removeClass(mns);
+                }
+            });
+        </script>
     </head>
     <body>
         <?php
@@ -33,12 +46,8 @@ and open the template in the editor.
         ?>
 
         <div class="site-container">
-            <div class="container-fluid" id="coverhead">
-                <!--<h1>The Lord will restore just as he has promised</h1>-->
-            </div>
-            
             <div class="container-fluid" id="holdnav">
-                <nav class="navbar navbar-inverse container">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -69,7 +78,10 @@ and open the template in the editor.
                     </div>
                 </nav>
             </div>
-            
+            <div class="container-fluid" id="coverhead">
+                <h1>The Lord will make you Bigger, Better and Greater !!!</h1>                
+            </div>
+
             <div class="container-fluid" id="msg">
                 <h2>Message from Pastor John Sarsah</h2>
                 <p>This is a short message from Pastor Sarsah</p>
