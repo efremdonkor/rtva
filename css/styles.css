@@ -13,18 +13,17 @@ and open the template in the editor.
 }
 
 nav {
-    padding: 10px;
+    /*padding: 10px;*/
     font-size: 1.1em;
+    font-weight: bold;
 }
 
 nav li {
     text-transform: uppercase;
-    
 }
 
 .navbar-inverse {
     border: none;
-    height: 100%;
     background-color: #255625;
 }
 
@@ -32,10 +31,86 @@ nav li {
     margin-bottom: 0px;
 }
 
+.main-nav-scrolled {
+    position: fixed;
+    top: 0px;
+}
 #holdnav {
     background-color: #255625;
+    z-index: 150;
+    box-shadow: 0 2px #4cae4c;
 }
 
-#navigate li {
-    color: #ffffff;
+#navigate {
+    padding: 2%;
+}
+
+.navbar-header img {
+    height: 400%
+}
+
+
+#coverhead {
+    height: 90vh;
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+    padding-top: 10%;
+}
+
+#coverhead h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font: arial;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    margin: auto;
+    text-decoration: blue blink;
+}
+
+#msg {
+    /*height: 60vh;*/
+    vertical-align: middle;
+}
+
+#msg img {
+    /*border-radius: 35%;*/
+    padding: 10% 0 10% 0;
+}
+
+#msg h2 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding: 5%;
+}
+
+#msg p {
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+    font-family: Verdana;
+    padding: 5%;
+    padding-top: 0;
+}
+
+#msg q {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coreValues {
+    /*height: 60vh;*/
+    background-color: grey;
+    /*background-image: url('../images/icgc.png');*/
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #e8e8e8;
+}
+
+#coreValues p {
+    text-align: justify;
 }
