@@ -19,6 +19,7 @@ nav {
 
 nav li {
     text-transform: uppercase;
+    
 }
 
 .navbar-inverse {
@@ -33,4 +34,8 @@ nav li {
 
 #holdnav {
     background-color: #255625;
+}
+
+#navigate li {
+    color: #ffffff;
 }
