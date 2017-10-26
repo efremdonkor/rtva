@@ -53,7 +53,14 @@ and open the template in the editor.
                                                     </ul>-->
                         <ul class="nav navbar-nav navbar-right" id="navigate">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">New Here?</a></li>
+                            <li>
+                                <a href="#">New Here?</a>
+<!--                                <ul class="navbar-nav nav navbar-right">
+                                    <li>Events</li>
+                                    <li>Our Belief</li>
+                                    <li>Giving</li>
+                                </ul>-->
+                            </li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Ministries</a></li>
                             <li><a href="#">Media</a></li>
